@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add --dev webpack-dev-server
+
+PATH: 
+  /home/pawan/.rvm/gems/ruby-2.6.5/bin:/home/pawan/.rvm/gems/ruby-2.6.5@global/bin:/home/pawan/.rvm/rubies/ruby-2.6.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pawan/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  17.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 2606:4700:9763:80e2:e49e:58c:6810:23:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)
+
+npm manifest: 
+  {
+    "name": "demo_app",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/activestorage": "^6.0.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
